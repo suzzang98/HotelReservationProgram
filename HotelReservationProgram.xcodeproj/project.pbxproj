@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DB0C95FB2A6919A300A1BA2F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C95FA2A6919A300A1BA2F /* main.swift */; };
+		DB0C96022A691C0600A1BA2F /* HotelReserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C96012A691C0600A1BA2F /* HotelReserve.swift */; };
+		DB0C96042A691C3700A1BA2F /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C96032A691C3700A1BA2F /* MenuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		DB0C95F72A6919A300A1BA2F /* HotelReservationProgram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HotelReservationProgram; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0C95FA2A6919A300A1BA2F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DB0C96012A691C0600A1BA2F /* HotelReserve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelReserve.swift; sourceTree = "<group>"; };
+		DB0C96032A691C3700A1BA2F /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				DB0C95FA2A6919A300A1BA2F /* main.swift */,
+				DB0C96012A691C0600A1BA2F /* HotelReserve.swift */,
+				DB0C96032A691C3700A1BA2F /* MenuBar.swift */,
 			);
 			path = HotelReservationProgram;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB0C95FB2A6919A300A1BA2F /* main.swift in Sources */,
+				DB0C96022A691C0600A1BA2F /* HotelReserve.swift in Sources */,
+				DB0C96042A691C3700A1BA2F /* MenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +251,7 @@
 		DB0C95FF2A6919A300A1BA2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WVX5V7QT8W;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -254,6 +263,7 @@
 		DB0C96002A6919A300A1BA2F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WVX5V7QT8W;
 				ENABLE_HARDENED_RUNTIME = YES;
